@@ -16,44 +16,42 @@ let
 	Support = ["Kabir", "Minto"],
 	SSC = ["Stephine"];
 
-const STAFF = [Admin, Office, Counselor, CTE, History, Maths, Gym, Dean, Language, Science, English, Support, SSC];
+
 
 //////// DO NOT EDIT ABOVE THIS LINE ////////////////
 /////////////////////////////////////////////////////
 
+Admin.splice(3);
+Admin.shift();
+Admin.shift();
+Admin.push("Drysdale","Simpkins")
+
+Office.shift();
+Office.push("Gardner", "Martinez", "Tirado", "Valentin");
+
+Counselor.splice(0);
+Counselor.push("Cooper", "Desroches", "Molina")
+
+CTE.splice(1,4)
+CTE.pop()
+CTE.push("Frazer", "Pelzer", "Pierre", "Ramsawak")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ////////// MAKE YOUR UPDATES WITHIN THIS SECTION //// 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -68,6 +66,6 @@ const STAFF = [Admin, Office, Counselor, CTE, History, Maths, Gym, Dean, Languag
 //////// DO NOT EDIT BELOW THIS LINE ////////////////
 /////////////////////////////////////////////////////
 
-
+const STAFF = [Admin, Office, Counselor, CTE, History, Maths, Gym, Dean, Language, Science, English, Support, SSC];
 
 e("table").innerHTML = createTableCotents();
