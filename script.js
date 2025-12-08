@@ -59,11 +59,13 @@ English.splice(4);
 English.splice(0,3);
 English.push("Grant", "Gomez", "Tavares");
 
-Support.push("Slater", "Sherman", "Rodriguez", "Steele");
+Support.push("Slater", "Sherman", "Rodriguez", "Steele", "David", "Howell");
 
+let Guidance = [];
+Guidance.push("Cooper", "Desroches", "Molina");
 
-
-
+let Interns = [];
+Interns.push("Test");
 
 
 ////////// MAKE YOUR UPDATES WITHIN THIS SECTION //// 
@@ -81,6 +83,6 @@ Support.push("Slater", "Sherman", "Rodriguez", "Steele");
 //////// DO NOT EDIT BELOW THIS LINE ////////////////
 /////////////////////////////////////////////////////
 
-const STAFF = [Admin, Office, Counselor, CTE, History, Maths, Gym, Dean, Language, Science, English, Support, SSC];
+const STAFF = [Admin, Office, Counselor, CTE, History, Maths, Gym, Dean, Language, Science, English, Support, SSC, Guidance, Interns];
 
 e("table").innerHTML = createTableCotents();
