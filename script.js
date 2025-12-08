@@ -27,7 +27,7 @@ Admin.shift();
 Admin.push("Drysdale","Simpkins");
 
 Office.shift();
-Office.push("Gardner", "Martinez", "Tirado", "Valentin");
+Office.push("Gardner", "Martinez", "Tirado", "Valentin", "Mike");
 
 Counselor.splice(0);
 Counselor.push("Cooper", "Desroches", "Molina");
@@ -59,7 +59,7 @@ English.splice(4);
 English.splice(0,3);
 English.push("Grant", "Gomez", "Tavares");
 
-Support.push("Slater", "Sherman", "Rodriguez", "Steele", "David", "Howell", "Shephard", "Ward");
+Support.push("Slater", "Sherman", "Rodriguez", "Steele", "David", "Howell", "Shephard", "Ward", "Valentin");
 
 let Guidance = [];
 Guidance.push("Cooper", "Desroches", "Molina");
