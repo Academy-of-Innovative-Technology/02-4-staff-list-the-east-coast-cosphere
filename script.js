@@ -59,7 +59,7 @@ English.splice(4);
 English.splice(0,3);
 English.push("Grant", "Gomez", "Tavares");
 
-Support.push("Slater", "Sherman", "Rodriguez", "Steele", "David", "Howell");
+Support.push("Slater", "Sherman", "Rodriguez", "Steele", "David", "Howell", "Shephard", "Ward");
 
 let Guidance = [];
 Guidance.push("Cooper", "Desroches", "Molina");
