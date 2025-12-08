@@ -24,27 +24,42 @@ let
 Admin.splice(3);
 Admin.shift();
 Admin.shift();
-Admin.push("Drysdale","Simpkins")
+Admin.push("Drysdale","Simpkins");
 
 Office.shift();
 Office.push("Gardner", "Martinez", "Tirado", "Valentin");
 
 Counselor.splice(0);
-Counselor.push("Cooper", "Desroches", "Molina")
+Counselor.push("Cooper", "Desroches", "Molina");
 
-CTE.splice(1,4)
-CTE.pop()
-CTE.push("Frazer", "Pelzer", "Pierre", "Ramsawak")
+CTE.splice(1,4);
+CTE.pop();
+CTE.push("Frazer", "Pelzer", "Pierre", "Ramsawak");
 
+History.splice(0,1);
+History.splice(1,1);
+History.splice(1,1);
+History.push("Urena");
 
+Maths.pop();
+Maths.push("Koelsch", "Minto", "Forth", "Wong");
 
+Gym.splice(1);
+Gym.push("Mcalary");
 
+Dean.splice(1,1);
 
+Language.splice(0,5);
+Language.push("Nowakowski", "Vallejo");
 
+Science.splice(0);
+Science.push("Davies", "Lynch");
 
+English.splice(4);
+English.splice(0,3);
+English.push("Grant", "Gomez", "Tavares");
 
-
-
+Support.push("Slater", "Sherman", "Rodriguez", "Steele");
 
 
 
