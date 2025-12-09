@@ -27,14 +27,16 @@ Admin.shift();
 Admin.push("Drysdale","Simpkins");
 
 Office.shift();
-Office.push("Gardner", "Martinez", "Tirado", "Valentin", "Mike");
+// Missing one,
+Office.push("Martinez", "Tirado", "Valentin");
 
 Counselor.splice(0);
 Counselor.push("Cooper", "Desroches", "Molina");
 
 CTE.splice(1,4);
 CTE.pop();
-CTE.push("Frazer", "Pelzer", "Pierre", "Ramsawak");
+CTE.push("Frazer", "Pelzer", "Pierre", "Ramsawak", "Gomez", "Rahimi" 
+);
 
 History.splice(0,1);
 History.splice(1,1);
@@ -53,7 +55,7 @@ Language.splice(0,5);
 Language.push("Nowakowski", "Vallejo");
 
 Science.splice(0);
-Science.push("Davies", "Lynch");
+Science.push("Davies", "Lynch", "Simpkins");
 
 English.splice(4);
 English.splice(0,3);
@@ -61,11 +63,28 @@ English.push("Grant", "Gomez", "Tavares");
 
 Support.push("Slater", "Sherman", "Rodriguez", "Steele", "David", "Howell", "Shephard", "Ward", "Valentin");
 
+SSC.splice(0);
+SSC.push("Guzman");
+
 let Guidance = [];
 Guidance.push("Cooper", "Desroches", "Molina");
 
 let Interns = [];
 Interns.push("Test");
+
+Admin.sort();
+CTE.sort();
+History.sort();
+Counselor.sort();
+Maths.sort();
+Gym.sort();
+Dean.sort();
+Language.sort();
+Science.sort();
+English.sort();
+Office.sort();
+Support.sort();
+SSC.sort();
 
 
 ////////// MAKE YOUR UPDATES WITHIN THIS SECTION //// 
