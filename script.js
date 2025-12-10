@@ -27,7 +27,6 @@ Admin.shift();
 Admin.push("Drysdale","Simpkins");
 
 Office.shift();
-// Missing one,
 Office.push("Martinez", "Tirado", "Valentin");
 
 Counselor.splice(0);
@@ -66,9 +65,6 @@ Support.push("Slater", "Sherman", "Rodriguez", "Steele", "David", "Howell", "She
 SSC.splice(0);
 SSC.push("Guzman");
 
-let Guidance = [];
-Guidance.push("Cooper", "Desroches", "Molina");
-
 let Interns = [];
 Interns.push("Test");
 
@@ -102,6 +98,6 @@ SSC.sort();
 //////// DO NOT EDIT BELOW THIS LINE ////////////////
 /////////////////////////////////////////////////////
 
-const STAFF = [Admin, Office, Counselor, CTE, History, Maths, Gym, Dean, Language, Science, English, Support, SSC, Guidance, Interns];
+const STAFF = [Admin, Office, Counselor, CTE, History, Maths, Gym, Dean, Language, Science, English, Support, SSC, Interns];
 
 e("table").innerHTML = createTableCotents();
