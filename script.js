@@ -60,7 +60,10 @@ English.splice(4);
 English.splice(0,3);
 English.push("Grant", "Gomez", "Tavares");
 
-Support.push("Slater", "Sherman", "Rodriguez", "Steele", "David", "Howell", "Shephard", "Ward", "Valentin", "Alabsi");
+Support.push("Slater", "Sherman", "Rodriguez", "Steele", "David", "Howell", "Valentin", );
+
+let Paraprofessional = [];
+Paraprofessional.push("Shephard", "Ward", "Alabsi", "Colter", "Camila", "Shand", "Ahad", "Nicholson", "J. Grant", "Belton", "Damari");
 
 SSC.splice(0);
 SSC.push("Guzman");
@@ -98,6 +101,6 @@ SSC.sort();
 //////// DO NOT EDIT BELOW THIS LINE ////////////////
 /////////////////////////////////////////////////////
 
-const STAFF = [Admin, Office, Counselor, CTE, History, Maths, Gym, Dean, Language, Science, English, Support, SSC, Interns];
+const STAFF = [Admin, Office, Counselor, CTE, History, Maths, Gym, Dean, Language, Science, English, Support, SSC, Interns, Paraprofessional];
 
 e("table").innerHTML = createTableCotents();
