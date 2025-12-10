@@ -34,7 +34,7 @@ Counselor.push("Cooper", "Desroches", "Molina");
 
 CTE.splice(1,4);
 CTE.pop();
-CTE.push("Frazer", "Pelzer", "Pierre", "Ramsawak", "Gomez", "Rahimi" 
+CTE.push("Frazer", "Pelzer", "Pierre", "Ramsawak", "Gomez", "Rahimi", "Sullivan" 
 );
 
 History.splice(0,1);
