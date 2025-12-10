@@ -60,7 +60,7 @@ English.splice(4);
 English.splice(0,3);
 English.push("Grant", "Gomez", "Tavares");
 
-Support.push("Slater", "Sherman", "Rodriguez", "Steele", "David", "Howell", "Shephard", "Ward", "Valentin");
+Support.push("Slater", "Sherman", "Rodriguez", "Steele", "David", "Howell", "Shephard", "Ward", "Valentin", "Alabsi");
 
 SSC.splice(0);
 SSC.push("Guzman");
