@@ -69,7 +69,6 @@ SSC.splice(0);
 SSC.push("Guzman");
 
 let Interns = [];
-Interns.push("Test");
 
 Admin.sort();
 CTE.sort();
