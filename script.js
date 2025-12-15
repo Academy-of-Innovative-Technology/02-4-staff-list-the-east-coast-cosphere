@@ -60,7 +60,7 @@ English.splice(4);
 English.splice(0,3);
 English.push("Grant", "Gomez", "Tavares");
 
-Support.push("Slater", "Sherman", "Rodriguez", "Steele", "David", "Howell", "Valentin", );
+Support.push("Slater", "Sherman", "Rodriguez", "Steele", "David", "Howell", "Valentin", "Jorge", "Belgrave");
 
 let Paraprofessional = [];
 Paraprofessional.push("Shephard", "Ward");
