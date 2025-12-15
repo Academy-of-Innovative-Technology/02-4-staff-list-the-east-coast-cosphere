@@ -27,7 +27,7 @@ Admin.shift();
 Admin.push("Drysdale","Simpkins");
 
 Office.shift();
-Office.push("Martinez", "Tirado", "Valentin");
+Office.push("Martinez", "Tirado", "Valentin", "Swing");
 
 Counselor.splice(0);
 Counselor.push("Cooper", "Desroches", "Molina");
@@ -54,7 +54,7 @@ Language.splice(0,5);
 Language.push("Nowakowski", "Vallejo");
 
 Science.splice(0);
-Science.push("Davies", "Lynch", "Simpkins");
+Science.push("Davies", "Lynch", "Simpkins", "Boswell");
 
 English.splice(4);
 English.splice(0,3);
@@ -63,12 +63,13 @@ English.push("Grant", "Gomez", "Tavares");
 Support.push("Slater", "Sherman", "Rodriguez", "Steele", "David", "Howell", "Valentin", );
 
 let Paraprofessional = [];
-Paraprofessional.push("Shephard", "Ward", "Alabsi", "Colter", "Camila", "Shand", "Ahad", "Nicholson", "J. Grant", "Belton", "Damari");
+Paraprofessional.push("Shephard", "Ward");
 
 SSC.splice(0);
 SSC.push("Guzman");
 
 let Interns = [];
+Interns.push("Alabsi", "Colter", "Camila", "Shand", "Ahad", "Nicholson", "J. Grant", "Belton", "Damari")
 
 Admin.sort();
 CTE.sort();
