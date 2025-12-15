@@ -30,7 +30,10 @@ Office.shift();
 Office.push("Martinez", "Tirado", "Valentin", "Swing");
 
 Counselor.splice(0);
-Counselor.push("Cooper", "Desroches", "Molina");
+Counselor.push("Molina");
+
+let Guidance = [];
+Guidance.push("Cooper", "Desroches");
 
 CTE.splice(1,4);
 CTE.pop();
@@ -63,13 +66,13 @@ English.push("Grant", "Gomez", "Tavares");
 Support.push("Slater", "Sherman", "Rodriguez", "Steele", "David", "Howell", "Valentin", "Jorge", "Belgrave");
 
 let Paraprofessional = [];
-Paraprofessional.push("Shephard", "Ward");
+Paraprofessional.push("Shephard", "Ward", "Alabsi", "Colter", "Camila", "Shand", "Ahad", "Nicholson", "J. Grant", "Belton", "Damari");
 
 SSC.splice(0);
 SSC.push("Guzman");
 
 let Interns = [];
-Interns.push("Alabsi", "Colter", "Camila", "Shand", "Ahad", "Nicholson", "J. Grant", "Belton", "Damari")
+Interns.push()
 
 Admin.sort();
 CTE.sort();
@@ -101,6 +104,6 @@ SSC.sort();
 //////// DO NOT EDIT BELOW THIS LINE ////////////////
 /////////////////////////////////////////////////////
 
-const STAFF = [Admin, Office, Counselor, CTE, History, Maths, Gym, Dean, Language, Science, English, Support, SSC, Interns, Paraprofessional];
+const STAFF = [Admin, Office, Counselor, Guidance, CTE, History, Maths, Gym, Dean, Language, Science, English, Support, SSC, Interns, Paraprofessional];
 
 e("table").innerHTML = createTableCotents();
